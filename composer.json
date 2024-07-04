@@ -1,5 +1,5 @@
 {
-    "name": "sebenzataxi/sebenza-laravel-charts",
+    "name": "sebenza-taxi/sebenza-laravel-charts",
     "description": "A fork of consoletvs/charts with custom updates",
     "license": "MIT",
     "type": "library",
