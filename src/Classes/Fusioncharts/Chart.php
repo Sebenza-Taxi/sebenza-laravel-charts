@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Fusioncharts;
+namespace SebenzaTaxi\Charts\Classes\Fusioncharts;
 
-use ConsoleTVs\Charts\Classes\BaseChart;
-use ConsoleTVs\Charts\Features\Fusioncharts\Chart as ChartFeatures;
+use SebenzaTaxi\Charts\Classes\BaseChart;
+use SebenzaTaxi\Charts\Features\Fusioncharts\Chart as ChartFeatures;
 use Illuminate\Support\Collection;
 
 class Chart extends BaseChart

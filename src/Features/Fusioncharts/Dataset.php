@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Features\Fusioncharts;
+namespace SebenzaTaxi\Charts\Features\Fusioncharts;
 
 use Illuminate\Support\Collection;
 

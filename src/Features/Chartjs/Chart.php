@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Features\Chartjs;
+namespace SebenzaTaxi\Charts\Features\Chartjs;
 
 trait Chart
 {

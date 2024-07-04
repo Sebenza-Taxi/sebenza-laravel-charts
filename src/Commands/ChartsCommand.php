@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Commands;
+namespace SebenzaTaxi\Charts\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\GeneratorCommand;

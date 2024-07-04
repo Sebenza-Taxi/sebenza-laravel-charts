@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Fusioncharts;
+namespace SebenzaTaxi\Charts\Classes\Fusioncharts;
 
-use ConsoleTVs\Charts\Classes\DatasetClass;
-use ConsoleTVs\Charts\Features\Fusioncharts\Dataset as DatasetFeatures;
+use SebenzaTaxi\Charts\Classes\DatasetClass;
+use SebenzaTaxi\Charts\Features\Fusioncharts\Dataset as DatasetFeatures;
 use Illuminate\Support\Collection;
 
 class Dataset extends DatasetClass

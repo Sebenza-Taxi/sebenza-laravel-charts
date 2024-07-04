@@ -1,6 +1,6 @@
 {
-    "name": "consoletvs/charts",
-    "description": "The laravel charting package",
+    "name": "sebenzataxi/sebenza-laravel-charts",
+    "description": "A fork of consoletvs/charts with custom updates",
     "license": "MIT",
     "type": "library",
     "require": {
@@ -11,19 +11,19 @@
     },
     "authors": [
         {
-            "name": "Èrik Campobadal Forés ",
-            "email": "soc@erik.cat"
+            "name": "Eduan Sillifant",
+            "email": "eduan.sillifant@sebenza.taxi"
         }
     ],
     "autoload": {
         "psr-4": {
-            "ConsoleTVs\\Charts\\": "src/"
+            "SebenzaTaxi\\Charts\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ConsoleTVs\\Charts\\ChartsServiceProvider"
+                "SebenzaTaxi\\Charts\\ChartsServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Frappe;
+namespace SebenzaTaxi\Charts\Classes\Frappe;
 
-use ConsoleTVs\Charts\Classes\DatasetClass;
-use ConsoleTVs\Charts\Features\Frappe\Dataset as DatasetFeatures;
+use SebenzaTaxi\Charts\Classes\DatasetClass;
+use SebenzaTaxi\Charts\Features\Frappe\Dataset as DatasetFeatures;
 
 class Dataset extends DatasetClass
 {

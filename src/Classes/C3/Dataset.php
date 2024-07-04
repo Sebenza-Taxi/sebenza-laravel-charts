@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\C3;
+namespace SebenzaTaxi\Charts\Classes\C3;
 
-use ConsoleTVs\Charts\Classes\DatasetClass;
-use ConsoleTVs\Charts\Features\C3\Dataset as DatasetFeatures;
+use SebenzaTaxi\Charts\Classes\DatasetClass;
+use SebenzaTaxi\Charts\Features\C3\Dataset as DatasetFeatures;
 
 class Dataset extends DatasetClass
 {

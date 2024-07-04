@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes;
+namespace SebenzaTaxi\Charts\Classes;
 
 use Balping\JsonRaw\Encoder;
 use Balping\JsonRaw\Raw;
@@ -185,13 +185,20 @@ class BaseChart
      */
     public function options($options, bool $overwrite = false)
     {
-        if (!empty($options['plugins'])) {
-            $options['plugins'] = new Raw(trim(preg_replace('/\s\s+/', ' ', $options['plugins'])));
-        }
-
         if ($options instanceof Collection) {
             $options = $options->toArray();
         }
+
+        if (!empty($options['plugins'])) {
+            foreach ($options['plugins'] as $key => $value) {
+                if (is_array($value)) {
+                    $options['plugins'][$key] = new Raw(json_encode($value));
+                } else {
+                    $options['plugins'][$key] = new Raw(trim(preg_replace('/\s\s+/', ' ', $value)));
+                }
+            }
+        }
+
         if ($overwrite) {
             $this->options = $options;
         } else {
@@ -200,6 +207,7 @@ class BaseChart
 
         return $this;
     }
+
 
     /**
      * Set the plugins options.

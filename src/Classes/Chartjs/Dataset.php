@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Chartjs;
+namespace SebenzaTaxi\Charts\Classes\Chartjs;
 
-use ConsoleTVs\Charts\Classes\DatasetClass;
-use ConsoleTVs\Charts\Features\Chartjs\Dataset as DatasetFeatures;
+use SebenzaTaxi\Charts\Classes\DatasetClass;
+use SebenzaTaxi\Charts\Features\Chartjs\Dataset as DatasetFeatures;
 
 class Dataset extends DatasetClass
 {

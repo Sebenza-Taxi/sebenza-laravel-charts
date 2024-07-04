@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts;
+namespace SebenzaTaxi\Charts;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
@@ -26,7 +26,7 @@ class ChartsServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \ConsoleTVs\Charts\Commands\ChartsCommand::class,
+                \SebenzaTaxi\Charts\Commands\ChartsCommand::class,
             ]);
         }
     }

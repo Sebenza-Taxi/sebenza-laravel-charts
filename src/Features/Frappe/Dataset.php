@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Features\Frappe;
+namespace SebenzaTaxi\Charts\Features\Frappe;
 
 trait Dataset
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Echarts;
+namespace SebenzaTaxi\Charts\Classes\Echarts;
 
-use ConsoleTVs\Charts\Classes\BaseChart;
-use ConsoleTVs\Charts\Features\Echarts\Chart as ChartFeatures;
+use SebenzaTaxi\Charts\Classes\BaseChart;
+use SebenzaTaxi\Charts\Features\Echarts\Chart as ChartFeatures;
 
 class Chart extends BaseChart
 {

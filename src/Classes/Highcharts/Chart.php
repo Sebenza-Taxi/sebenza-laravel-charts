@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Highcharts;
+namespace SebenzaTaxi\Charts\Classes\Highcharts;
 
-use ConsoleTVs\Charts\Classes\BaseChart;
-use ConsoleTVs\Charts\Features\Highcharts\Chart as ChartFeatures;
+use SebenzaTaxi\Charts\Classes\BaseChart;
+use SebenzaTaxi\Charts\Features\Highcharts\Chart as ChartFeatures;
 
 class Chart extends BaseChart
 {

@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use ConsoleTVs\Charts\Classes\Library\Chart;
+use SebenzaTaxi\Charts\Classes\Library\Chart;
 
 class DummyClass extends Chart
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Frappe;
+namespace SebenzaTaxi\Charts\Classes\Frappe;
 
-use ConsoleTVs\Charts\Classes\BaseChart;
-use ConsoleTVs\Charts\Features\Frappe\Chart as ChartFeatures;
+use SebenzaTaxi\Charts\Classes\BaseChart;
+use SebenzaTaxi\Charts\Features\Frappe\Chart as ChartFeatures;
 
 class Chart extends BaseChart
 {

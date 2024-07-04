@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes;
+namespace SebenzaTaxi\Charts\Classes;
 
 use Illuminate\Support\Collection;
 

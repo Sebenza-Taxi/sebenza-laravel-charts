@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Features\Highcharts;
+namespace SebenzaTaxi\Charts\Features\Highcharts;
 
 use Illuminate\Support\Collection;
 

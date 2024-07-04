@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\Highcharts;
+namespace SebenzaTaxi\Charts\Classes\Highcharts;
 
-use ConsoleTVs\Charts\Classes\DatasetClass;
-use ConsoleTVs\Charts\Features\Highcharts\Dataset as DatasetFeatures;
+use SebenzaTaxi\Charts\Classes\DatasetClass;
+use SebenzaTaxi\Charts\Features\Highcharts\Dataset as DatasetFeatures;
 use Illuminate\Support\Collection;
 
 class Dataset extends DatasetClass

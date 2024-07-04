@@ -1,9 +1,9 @@
 <?php
 
-namespace ConsoleTVs\Charts\Classes\C3;
+namespace SebenzaTaxi\Charts\Classes\C3;
 
-use ConsoleTVs\Charts\Classes\BaseChart;
-use ConsoleTVs\Charts\Features\C3\Chart as ChartFeatures;
+use SebenzaTaxi\Charts\Classes\BaseChart;
+use SebenzaTaxi\Charts\Features\C3\Chart as ChartFeatures;
 use Illuminate\Support\Collection;
 
 class Chart extends BaseChart

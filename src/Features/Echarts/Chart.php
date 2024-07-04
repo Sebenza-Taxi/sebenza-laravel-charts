@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts\Features\Echarts;
+namespace SebenzaTaxi\Charts\Features\Echarts;
 
 trait Chart
 {
